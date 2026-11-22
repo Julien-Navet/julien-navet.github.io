@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 590" role="img" aria-labelledby="title desc">
+  <title id="title">Visuel provisoire de conception mécanique</title>
+  <desc id="desc">Illustration technique générique d’un assemblage mécanique éclaté, à remplacer.</desc>
+  <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#d8dfd5" stroke-width="1"/></pattern></defs>
+  <rect width="800" height="590" fill="#e8ecf3"/><rect width="800" height="590" fill="url(#grid)"/>
+  <g fill="none" stroke="#203a5b" stroke-linejoin="round" stroke-width="4">
+    <path d="M206 339l180-99 210 113-179 105z" fill="#f5f4e9"/>
+    <path d="M206 339v70l211 119v-70" fill="#d5deeb"/><path d="M417 458v70l179-99v-76" fill="#c4d1e1"/>
+    <path d="M275 301l117-66 141 75-117 67z" fill="#c9dcf4"/>
+    <path d="M275 301v-59l141 75v60M416 317l117-66v59" fill="#bdcadd"/>
+    <path d="M311 213l88-50 150 81-88 50z" fill="#fffefa"/>
+    <path d="M311 213v-45l150 81v45M461 249l88-50v45" fill="#d8e0ec"/>
+    <path d="M334 127l53-30 98 54-53 30z" fill="#e78353"/>
+    <path d="M334 127v-38l98 54v38M432 143l53-30v38" fill="#cf714a"/>
+  </g>
+  <g stroke="#e78353" stroke-width="2" stroke-dasharray="5 6" fill="none"><path d="M381 147v36M438 179v26M476 218v20"/><path d="M606 267h112M552 180h112"/></g>
+  <g fill="#203a5b" font-family="Arial,sans-serif" font-size="12" letter-spacing="2"><text x="34" y="45">ASSEMBLAGE / ILLUSTRATION PROVISOIRE</text><text x="564" y="548">VISUEL À REMPLACER</text></g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration provisoire de mécanique</title>
+  <desc id="desc">Dessin abstrait d’un mécanisme articulé sur une grille technique.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#d7ded3" stroke-width="1"/></pattern>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#e9edf4"/><stop offset="1" stop-color="#d7e0ec"/></linearGradient>
+    <linearGradient id="metal" x2="1" y2="1"><stop stop-color="#f8f6e8"/><stop offset="1" stop-color="#b4c3d5"/></linearGradient>
+  </defs>
+  <rect width="720" height="560" fill="url(#bg)"/><rect width="720" height="560" fill="url(#grid)"/>
+  <circle cx="358" cy="282" r="205" fill="none" stroke="#a2b3c8" stroke-dasharray="3 7"/>
+  <path d="M164 446h385M216 442l50-123 93-48 103 58 47 110" fill="none" stroke="#203a5b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M260 318l34 14 67-35-29-32zM387 293l19-32 84 50-21 34z" fill="url(#metal)" stroke="#203a5b" stroke-width="4"/>
+  <path d="M332 273l34-91 74-31 16 28-53 28-31 82z" fill="url(#metal)" stroke="#203a5b" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="365" cy="277" r="17" fill="#e78353" stroke="#203a5b" stroke-width="4"/>
+  <circle cx="407" cy="167" r="13" fill="#c9dcf4" stroke="#203a5b" stroke-width="4"/>
+  <path d="M435 150l51-35 42 13-27 39-49 14z" fill="#f3f1e7" stroke="#203a5b" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M235 466h308" stroke="#203a5b" stroke-width="8" stroke-linecap="round"/>
+  <g fill="#203a5b" font-family="Arial,sans-serif" font-size="12" letter-spacing="2"><text x="34" y="46">ÉTUDE MÉCANIQUE / VISUEL PROVISOIRE</text><text x="540" y="510">FIG. 01 — À REMPLACER</text></g>
+  <path d="M485 115h73M558 115v36" fill="none" stroke="#e78353" stroke-width="2"/><circle cx="558" cy="152" r="4" fill="#e78353"/>
+</svg>

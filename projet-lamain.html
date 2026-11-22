@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LaMain : conception avec Arthur Mourgue d’une main robotique légère, à cinq degrés de liberté et imprimable en 3D pour le bras SO-101.">
+  <title>LaMain — Main robotique pour SO-101 — Julien Navet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">J<span>N</span></span><span>Portfolio <span class="brand-year">/ 2026—2027</span></span></a>
+    <nav class="main-nav" aria-label="Navigation principale"><a href="index.html#projets">Projets</a><a href="index.html#parcours">Parcours</a><a href="index.html#contact">Contact</a></nav>
+    <a class="header-cta" href="mailto:julien.nvt@gmail.com">Me contacter <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="contenu" class="detail-page">
+    <div class="detail-top section-wrap">
+      <a class="back-link" href="index.html#projets"><span aria-hidden="true">←</span> Retour aux projets</a>
+      <div class="lamain-intro-grid">
+        <div class="lamain-intro-copy">
+          <p class="eyebrow">PROJET OPEN SOURCE / 2026—2027</p>
+          <h1>LaMain</h1>
+          <p class="detail-lead">Nous concevons une main robotique à cinq degrés de liberté, légère et imprimable en 3D, destinée au bras SO-101. Notre objectif : une main abordable et précise, capable de manipuler des objets.</p>
+          <p class="detail-lead">Ce projet est réalisé avec <a href="https://www.linkedin.com/in/arthur-mourgue/" target="_blank" rel="noopener">Arthur Mourgue</a> : je m’occupe de la conception mécanique, tandis qu’Arthur prend en charge l’assemblage, les essais et la partie intelligence artificielle.</p>
+          <ul class="tags" aria-label="Caractéristiques et compétences"><li>5 degrés de liberté</li><li>Objectif : 200 g</li><li>Conception mécanique</li><li>Impression 3D</li><li>Open source</li></ul>
+        </div>
+        <figure class="project-video project-video-square lamain-video">
+          <video autoplay muted loop playsinline preload="metadata" poster="videos/lamain-loop.webp" aria-label="Démonstration de la main robotique LaMain montée sur le bras SO-101">
+            <source src="videos/lamain-so101.mp4" type="video/mp4">
+            Votre navigateur ne prend pas en charge la lecture vidéo.
+          </video>
+        </figure>
+      </div>
+    </div>
+
+    <div class="detail-content">
+      <aside class="project-facts">
+        <div><span>ÉQUIPE</span><p>Julien Navet et <a href="https://www.linkedin.com/in/arthur-mourgue/" target="_blank" rel="noopener">Arthur Mourgue</a></p></div>
+        <div><span>OBJECTIF</span><p>Main légère, précise et abordable pour le SO-101</p></div>
+        <div><span>ARCHITECTURE</span><p>5 degrés de liberté</p></div>
+        <div><span>MASSE VISÉE</span><p>Environ 200 g</p></div>
+        <div><span>FABRICATION</span><p>Pièces imprimables en 3D</p></div>
+      </aside>
+
+      <div class="detail-article">
+        <section>
+          <p class="eyebrow">01 / Le besoin</p>
+          <h2>Une main légère pour le SO-101</h2>
+          <p>LaMain est un projet de main robotique conçue pour être montée sur le bras SO-101. Il s’agit de viser une masse d’environ 200 g tout en conservant assez de robustesse et de dextérité pour saisir, manipuler et porter des objets. Nous cherchons à obtenir une solution abordable, précise et reproductible, dont les pièces peuvent être fabriquées par impression 3D.</p>
+          <p>Le projet s’inscrit dans l’esprit du matériel robotique ouvert : nous voulons rendre la conception accessible et réutilisable par une communauté, à l’image de l’écosystème open source du SO-101. Une main accessible peut aussi faciliter la collecte de démonstrations et l’entraînement de modèles pour la manipulation robotique.</p>
+        </section>
+        <section>
+          <p class="eyebrow">02 / La conception</p>
+          <h2>Adapter l’Amazing Hand de LeRobot</h2>
+          <p>Nous sommes partis de l’Amazing Hand développée par LeRobot, puis avons repensé son architecture pour répondre à nos contraintes de masse et de force. Dans la conception de référence, deux petits servomoteurs actionnent chaque doigt. Cette multiplication des actionneurs augmente la masse, tandis que les petits servos limitent la force disponible pour saisir des objets plus conséquents.</p>
+          <p>Le mécanisme de chaque doigt a été pensé pour qu’un seul servo puisse le commander. Nous avons également conçu un mécanisme qui couple deux doigts afin de piloter leur abduction et leur adduction avec un servo. Pour le pouce, deux servos montés en série augmentent sa portée et sa plage de mouvement.</p>
+          <p>Cette architecture vise cinq degrés de liberté au total, avec moins d’actionneurs que la solution de départ et une main compatible avec une fabrication par impression 3D.</p>
+        </section>
+        <section>
+          <p class="eyebrow">03 / Travail en équipe</p>
+          <h2>De la conception aux essais</h2>
+          <p>Les essais permettront de vérifier l’intégration sur le bras SO-101, la commande des mouvements et la capacité de la main à manipuler des objets.</p>
+        </section>
+        <a class="back-link end-back-link" href="index.html#projets"><span aria-hidden="true">←</span> Retour aux projets</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer section-wrap">
+    <a class="brand footer-brand" href="index.html"><span class="brand-mark">J<span>N</span></span><span>Julien Navet</span></a>
+    <p>Portfolio · Mécanique &amp; robotique</p>
+    <div class="footer-links"><a href="documents/CV-Julien-Navet.pdf" target="_blank" rel="noopener">CV <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/julien-navet/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a><a href="mailto:julien.nvt@gmail.com">E-mail <span aria-hidden="true">↗</span></a></div>
+    <a class="back-top" href="index.html" aria-label="Retour en haut">↑</a>
+  </footer>
+</body>
+</html>

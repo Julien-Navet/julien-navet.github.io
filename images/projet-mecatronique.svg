@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 590" role="img" aria-labelledby="title desc">
+  <title id="title">Visuel provisoire de mécatronique</title>
+  <desc id="desc">Schéma illustratif générique d’un bras robotique connecté à un contrôleur.</desc>
+  <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#d6ded4" stroke-width="1"/></pattern></defs>
+  <rect width="800" height="590" fill="#e8edf4"/><rect width="800" height="590" fill="url(#grid)"/>
+  <path d="M173 454h352" stroke="#203a5b" stroke-width="12" stroke-linecap="round"/>
+  <path d="M242 442l43-120 112-30 87 73-25 31-80-48-70 31-28 79z" fill="#f8f5e9" stroke="#203a5b" stroke-width="5" stroke-linejoin="round"/>
+  <circle cx="286" cy="322" r="20" fill="#e78353" stroke="#203a5b" stroke-width="5"/>
+  <circle cx="397" cy="292" r="17" fill="#c9dcf4" stroke="#203a5b" stroke-width="5"/>
+  <path d="M463 365l21-35 62 39-20 34zM546 370l31-5 25 25-16 31-37-4" fill="#d8e0ec" stroke="#203a5b" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="574" y="148" width="144" height="93" rx="4" fill="#fffefa" stroke="#203a5b" stroke-width="4"/>
+  <rect x="591" y="165" width="54" height="32" fill="#c9dcf4"/><path d="M657 168h43M657 180h33M591 211h108" stroke="#203a5b" stroke-width="3"/>
+  <path d="M645 241c-4 42-22 61-52 93" fill="none" stroke="#e78353" stroke-width="3" stroke-dasharray="7 7"/>
+  <g fill="#203a5b" font-family="Arial,sans-serif" font-size="12" letter-spacing="2"><text x="34" y="45">SYSTÈME MÉCATRONIQUE / VISUEL PROVISOIRE</text><text x="554" y="548">À REMPLACER</text></g>
+</svg>

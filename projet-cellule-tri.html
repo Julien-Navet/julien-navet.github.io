@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Projet de bin-picking de chaussures avec un cobot UR3e : automatisation, cinématique inverse et planification de trajectoires sous ROS 2 et MoveIt.">
+  <title>Cellule de tri avec cobot UR3e — Julien Navet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">J<span>N</span></span><span>Portfolio <span class="brand-year">/ 2026—2027</span></span></a>
+    <nav class="main-nav" aria-label="Navigation principale"><a href="index.html#projets">Projets</a><a href="index.html#parcours">Parcours</a><a href="index.html#contact">Contact</a></nav>
+    <a class="header-cta" href="mailto:julien.nvt@gmail.com">Me contacter <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="contenu" class="detail-page">
+    <div class="detail-top section-wrap">
+      <a class="back-link" href="index.html#projets"><span aria-hidden="true">←</span> Retour aux projets</a>
+      <p class="eyebrow">PROJET ÉTUDIANT / 2e ANNÉE</p>
+      <h1>Cellule de tri<br>avec cobot UR3e</h1>
+      <p class="detail-lead">Développement en équipe d’une application de bin-picking pour le tri de chaussures. Ma contribution porte sur l’automatisation du cobot et la génération de trajectoires jusqu’au point de préhension.</p>
+      <ul class="tags" aria-label="Compétences et outils"><li>ROS 2</li><li>MoveIt</li><li>Cinématique inverse</li><li>Grasp planning</li><li>Bin-picking</li></ul>
+      <figure class="detail-hero-image detail-robot-image">
+        <img src="images/cellule-tri-ur3e-cadre.png" alt="Cobot UR3e en train de saisir une chaussure sur la cellule de tri">
+        <figcaption>Cellule de tri avec cobot UR3e.</figcaption>
+      </figure>
+    </div>
+
+    <div class="detail-content">
+      <aside class="project-facts">
+        <div><span>CONTEXTE</span><p>Projet de 2e année d’école d’ingénieur</p></div>
+        <div><span>ÉQUIPE</span><p>6 personnes</p></div>
+        <div><span>OBJECTIF</span><p>Application de bin-picking pour le tri de chaussures</p></div>
+        <div><span>MA CONTRIBUTION</span><p>Automatisation et génération de trajectoires</p></div>
+        <div><span>OUTILS</span><p>ROS 2 · MoveIt</p></div>
+      </aside>
+
+      <div class="detail-article">
+        <section>
+          <p class="eyebrow">01 / Le contexte</p>
+          <h2>Automatiser le tri de chaussures</h2>
+          <p>Réalisé en deuxième année d’école d’ingénieur au sein d’une équipe de six personnes, ce projet avait pour objectif global de développer une application de bin-picking dédiée au tri de chaussures. Le système combine la perception de l’objet et l’intervention d’un cobot UR3e afin de rejoindre la chaussure et de la saisir.</p>
+        </section>
+        <section>
+          <p class="eyebrow">02 / Mon rôle</p>
+          <h2>De la cible à la trajectoire du robot</h2>
+          <p>Je me suis occupé de la partie automatisation et génération de trajectoires. Avec ROS 2 et MoveIt, j’ai travaillé sur la planification du mouvement du bras pour rejoindre la cible de préhension. La résolution de la cinématique inverse (IK) permet de calculer les positions articulaires correspondant à la pose visée par l’effecteur.</p>
+          <p>J’ai également travaillé sur le <em>grasp planning</em> : définir une pose et une approche adaptées pour que le robot puisse atteindre la chaussure avec précision. Ces étapes relient la cible issue de la perception au mouvement autonome du cobot.</p>
+        </section>
+        <section>
+          <p class="eyebrow">03 / Démonstration</p>
+          <h2>Perception et mouvement autonome</h2>
+          <p>La démonstration montre d’abord le retour de la caméra embarquée sur l’effecteur : la détection YOLO et la segmentation du contour de la chaussure permettent d’identifier le point de saisie. Le cobot UR3e se déplace ensuite de façon autonome et fluide jusqu’à la cible pour attraper la chaussure.</p>
+          <figure class="project-video">
+            <img src="videos/ur3e-loop.webp" alt="Démonstration de la détection et de la prise autonome par le cobot UR3e">
+            <figcaption>Démonstration de la détection visuelle et de la prise autonome par le cobot UR3e.</figcaption>
+          </figure>
+        </section>
+        <a class="back-link end-back-link" href="index.html#projets"><span aria-hidden="true">←</span> Retour aux projets</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer section-wrap">
+    <a class="brand footer-brand" href="index.html"><span class="brand-mark">J<span>N</span></span><span>Julien Navet</span></a>
+    <p>Portfolio · Mécanique &amp; robotique</p>
+    <div class="footer-links"><a href="documents/CV-Julien-Navet.pdf" target="_blank" rel="noopener">CV <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/julien-navet/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a><a href="mailto:julien.nvt@gmail.com">E-mail <span aria-hidden="true">↗</span></a></div>
+    <a class="back-top" href="index.html" aria-label="Retour en haut">↑</a>
+  </footer>
+</body>
+</html>
